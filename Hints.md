@@ -9,10 +9,11 @@
 #### Some Commands   
 `cd ~/Library/Android/sdk/emulator/`  
 `emulator -avd my_avd`  
+`emulator -avd my_avd  -wipe-data`  
 `emulator -list-avd`  
 
 ##### For Building  
-`react-native bundle --dev false --platform android --entry-file index.android.js --bundle-output ./android/app/build/intermediates/assets/debug/index.android.bundle --assets-dest ./android/app/build/intermediates/res/merged/debug`    
+`react-native bundle --dev false --platform android --entry-file index.js --bundle-output ./android/app/build/intermediates/assets/debug/index.android.bundle --assets-dest ./android/app/build/intermediates/res/merged/debug`    
 
 `cd android`  
 `./gradlew assembleDebug`  
