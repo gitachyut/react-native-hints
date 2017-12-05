@@ -18,4 +18,11 @@
 `cd android`  
 `./gradlew assembleDebug`  
 
+### Status Bar . 
+`    <StatusBar
+      translucent
+      backgroundColor="rgba(0, 0, 0, 0.20)"
+      animated
+    />`
+
 
